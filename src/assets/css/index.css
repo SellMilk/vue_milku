@@ -1,0 +1,75 @@
+/*样式重置开始*/
+*{
+    padding: 0;
+    margin: 0;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+html, body{
+    font-size: 10px;
+}
+
+/*样式重置结束*/
+#index{
+    width: 600px;
+    margin: 0 auto 50px auto;
+    position: relative;
+}
+@media(max-width: 600px) {
+    #index{
+        width: 100%;
+    }
+}
+@media(max-width: 330px) {
+    body, html{
+        font-size: 9px;
+    }
+}
+/*底部导航栏样式开始*/
+.home-footer{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    background: #ffffff;
+    border-top: 1px solid #cccccc;
+}
+.home-footer .item{
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.home-footer div{
+    display: inline-block;
+}
+.home-footer .item p{
+    display: block;
+    font-size: 1.8rem;
+    margin: 0;
+}
+.home-footer .item span{
+    font-size: 1.2rem;
+}
+/*底部导航栏样式结束*/
+
