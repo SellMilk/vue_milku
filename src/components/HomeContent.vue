@@ -33,57 +33,7 @@
         </div>
       </div>
       <ul id="product-list">
-        <li class="product">
-          <div class="product-img">
-            <img src="../assets/imgs/xiyuchun.jpg" alt="">
-          </div>
-          <div class="product-describe">
-            <a href="product.html"><h3 class="product-title">西域春牛奶最棒西域春牛奶最棒西域春牛奶最棒</h3></a>
-            <div class="product-price">
-              <span class="num">￥74</span>
-              <span>/月</span>
-            </div>
-            <div class="product-info">
-              <p class="product-date">保质期3天</p>
-              <p class="product-num">2131人订购</p>
-              <p class="product-area">哈尔滨</p>
-            </div>
-          </div>
-        </li>
-        <li class="product">
-          <div class="product-img">
-            <img src="../assets/imgs/xiyuchun.jpg" alt="">
-          </div>
-          <div class="product-describe">
-            <a href="javascript:"><h3 class="product-title">西域春牛奶最棒西域春牛奶最棒西域春牛奶最棒</h3></a>
-            <div class="product-price">
-              <span class="num">￥74</span>
-              <span>/月</span>
-            </div>
-            <div class="product-info">
-              <p class="product-date">保质期3天</p>
-              <p class="product-num">2131人订购</p>
-              <p class="product-area">哈尔滨</p>
-            </div>
-          </div>
-        </li>
-        <li class="product">
-          <div class="product-img">
-            <img src="../assets/imgs/xiyuchun.jpg" alt="">
-          </div>
-          <div class="product-describe">
-            <a href="javascript:"><h3 class="product-title">西域春牛奶最棒西域春牛奶最棒西域春牛奶最棒</h3></a>
-            <div class="product-price">
-              <span class="num">￥74</span>
-              <span>/月</span>
-            </div>
-            <div class="product-info">
-              <p class="product-date">保质期3天</p>
-              <p class="product-num">2131人订购</p>
-              <p class="product-area">哈尔滨</p>
-            </div>
-          </div>
-        </li>
+        <product-list></product-list>
       </ul>
       <p class="down">----------我是有底线的人----------</p>
     </div>
@@ -91,7 +41,10 @@
 </template>
 
 <script>
-
+  import ProductList from './ProductList'
+  export default{
+    components: {ProductList}
+  }
 </script>
 
 <style>

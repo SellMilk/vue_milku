@@ -1,7 +1,7 @@
 <template>
   <div>
-    <comment-footer></comment-footer>
     <home-content></home-content>
+    <comment-footer></comment-footer>
   </div>
 </template>
 
