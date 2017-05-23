@@ -33,7 +33,7 @@
         </div>
       </div>
       <ul id="product-list">
-        <product-list></product-list>
+        <product-list v-for="n in 4"></product-list>
       </ul>
       <p class="down">----------我是有底线的人----------</p>
     </div>
