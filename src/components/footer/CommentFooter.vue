@@ -32,6 +32,6 @@
 </script>
 
 <style>
-  @import "../assets/css/bootstrap.min.css";
-  @import "../assets/css/index.css";
+  @import "../../assets/css/bootstrap.min.css";
+  @import "../../assets/css/index.css";
 </style>

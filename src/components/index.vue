@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import CommentFooter from './CommentFooter'
+  import CommentFooter from './footer/CommentFooter'
   import HomeContent from './HomeContent'
 export default {
   components: {CommentFooter,HomeContent},
