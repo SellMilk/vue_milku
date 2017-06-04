@@ -1,13 +1,35 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <div id="index">
+      <v-header></v-header>
+      <div class="home-container">
+        <v-carousel></v-carousel>
+        <ul id="product-list">
+          <v-product></v-product>
+          <v-product></v-product>
+          <v-product></v-product>
+          <v-product></v-product>
+        </ul>
+      </div>
+    </div>
+    <v-footer></v-footer>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  import header from './components/header/header'
+  import footer from './components/footer/CommentFooter'
+  import carousel from './components/carousel/carousel'
+  import product from './components/product/product.vue'
+
+  export default{
+    components:{
+      'v-header': header,
+      'v-footer': footer,
+      'v-carousel': carousel,
+      'v-product': product
+    }
+  }
 </script>
 
 <style>
