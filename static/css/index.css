@@ -36,6 +36,11 @@ html, body{
     margin: 0 auto 50px auto;
     position: relative;
 }
+.home-container .down{
+  text-align: center;
+  width: 100%;
+  color: #8c8c8c;
+}
 @media(max-width: 600px) {
     #index{
         width: 100%;

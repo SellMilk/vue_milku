@@ -4,22 +4,32 @@
       <img src="./imgs/xiyuchun.jpg" alt="">
     </div>
     <div class="product-describe">
-      <a href=""><h3 class="product-title">西域春牛奶最棒西域春牛奶最棒西域春牛奶最棒</h3></a>
+      <a href=""><h3 class="product-title">{{title}}</h3></a>
       <div class="product-price">
-        <span class="num">￥74</span>
+        <span class="num">￥{{price}}</span>
         <span>/月</span>
       </div>
       <div class="product-info">
-        <p class="product-date">保质期3天</p>
-        <p class="product-num">2131人订购</p>
-        <p class="product-area">哈尔滨</p>
+        <p class="product-date">保质期{{date}}天</p>
+        <p class="product-num">{{num}}人订购</p>
+        <p class="product-area">{{area}}</p>
       </div>
     </div>
   </li>
 </template>
 
 <script>
-  export default{}
+  export default{
+    data: function () {
+      return {
+        title: '西域春牛奶最棒西域春牛奶最棒西域春牛奶最棒',
+        price: '54',
+        date: '2',
+        num: '543',
+        area: '哈尔滨'
+      }
+    }
+  }
 </script>
 
 <style>
@@ -83,11 +93,6 @@
   }
   .home-container .product-area{
     margin-right: 5px;
-  }
-  .home-container .down{
-    text-align: center;
-    width: 100%;
-    color: #8c8c8c;
   }
   @media(max-width: 330px) {
     .home-container .product-title{

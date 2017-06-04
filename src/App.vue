@@ -10,6 +10,7 @@
           <v-product></v-product>
           <v-product></v-product>
         </ul>
+        <p class="down">----------我是有底线的人----------</p>
       </div>
     </div>
     <v-footer></v-footer>
