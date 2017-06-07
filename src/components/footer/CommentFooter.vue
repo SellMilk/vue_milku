@@ -16,7 +16,7 @@
         </div>
       </div>
     </a>
-    <a href="userPage.html">
+    <a href="/#/userPage">
       <div class="col-xs-4 item">
         <div>
           <p class="glyphicon glyphicon-user"></p>

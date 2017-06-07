@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+<body>
     <div id="index">
       <v-header></v-header>
       <div class="home-container">
@@ -14,14 +14,14 @@
       </div>
     </div>
     <v-footer></v-footer>
-  </div>
+</body>
 </template>
 
 <script>
-  import header from './components/header/header'
-  import footer from './components/footer/CommentFooter'
-  import carousel from './components/carousel/carousel'
-  import product from './components/product/product.vue'
+  import header from '../header/header'
+  import footer from '../footer/CommentFooter'
+  import carousel from '../carousel/carousel'
+  import product from '../product/product'
 
   export default{
     components:{
