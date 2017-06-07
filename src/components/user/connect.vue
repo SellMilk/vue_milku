@@ -20,6 +20,7 @@ import CommentFooter from '../footer/CommentFooter'
 </script>
 
 <style type="text/css">
+
 body {
     background: rgb(244, 244, 244);
 }

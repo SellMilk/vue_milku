@@ -16,9 +16,8 @@
 <script type="text/javascript">
 
 </script>
+
 <style type="text/css">
-@import '../../../static/css/bootstrap.min.css';
-@import '../../../static/css/index.css';
 body {
     background: rgb(244, 244, 244);
 }

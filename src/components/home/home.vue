@@ -21,10 +21,10 @@
 </template>
 
 <script>
-  import header from './header/header'
-  import footer from './footer/CommentFooter'
-  import carousel from './carousel/carousel'
-  import product from './product/product.vue'
+  import header from '../header/header'
+  import footer from '../footer/CommentFooter'
+  import carousel from '../carousel/carousel'
+  import product from '../product/product.vue'
 
   export default{
     components:{

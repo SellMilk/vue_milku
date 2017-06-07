@@ -5,7 +5,7 @@
         <div class="seller-details">
             <!--返回主页-->
             <span class="return">
-                <router-link :to="'/'"></router-link>
+                <router-link to=""></router-link>
             </span>
             <!-- 商家logo-->
             <img src="./imgs/logo.jpg" alt="" class="seller-logo"/>
@@ -42,7 +42,7 @@
             <!-- 跳转到商家具体详情页的向右箭头-->
             <span class="seller-skip">
                 <!--！！！！！！跳转到详情页的路由-->
-                <router-link :to="'/sellerdetail/'"></router-link>
+                <router-link to="/sellerdetail"></router-link>
             </span>
         </div>
     </div>
@@ -51,10 +51,10 @@
 
 
 <script>
-    import Index from '../Index'
 	import SellerDetail from '../seller/SellerDetail'
+	import home from '../home/home'
     export default{
-        components: {Index,SellerDetail}
+        components: {home,SellerDetail}
         }
 </script>
 

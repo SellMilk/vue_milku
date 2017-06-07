@@ -1,16 +1,16 @@
 <template>
     <div class="seller-evaluate-header">
         <div class="return-sellerdetail">
-            <router-link :to="'/sellerdetail/'"></router-link>
+            <router-link to="/sellerdetail"></router-link>
             <span>评价详情</span>
         </div>
-    </div> 
+    </div>
 </template>
 
 
 <<script>
 export default {
-  
+
 }
 </script>
 
@@ -41,4 +41,3 @@ export default {
 }
 </style>
 
-    

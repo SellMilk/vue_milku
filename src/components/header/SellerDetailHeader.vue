@@ -1,7 +1,7 @@
 <template>
     <div class="seller-detail-header">
         <div class="return-seller">
-            <router-link :to="'/seller/'"></router-link>
+            <router-link to="/seller"></router-link>
             <span>商家详情</span>
         </div>
         <div class="seller-introduction">
@@ -29,7 +29,7 @@
     </div>
 </template>
 <script>
-   
+
 </script>
 <style>
 /*header开始*/

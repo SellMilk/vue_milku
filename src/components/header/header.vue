@@ -4,8 +4,8 @@
       <div class="input-group">
         <input type="text" class="form-control" placeholder="找你喜欢的牛奶">
         <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">查找</button>
-                  </span>
+          <button class="btn btn-default" type="button">查找</button>
+        </span>
       </div>
       <span class="hot-word">伊利</span>
       <span class="hot-word">蒙牛</span>
