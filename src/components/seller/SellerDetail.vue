@@ -7,9 +7,9 @@
 </template>
 
 <script>
-  import SellerDetailHeader from './header/SellerDetailHeader'
-  import CommentFooter from './footer/CommentFooter'
-  import SellerDetailContent from './content/SellerDetailContent'
+  import SellerDetailHeader from '../header/SellerDetailHeader'
+  import CommentFooter from '../footer/CommentFooter'
+  import SellerDetailContent from '../content/SellerDetailContent'
   export default{
     components: {SellerDetailHeader,SellerDetailContent,CommentFooter}
   }

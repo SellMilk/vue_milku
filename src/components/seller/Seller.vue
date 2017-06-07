@@ -10,9 +10,9 @@
 
 
 <script>
-  import SellerHeader from './header/SellerHeader'
-  import SellerContent from './content/SellerContent'
-  import CommentFooter from './footer/CommentFooter'
+  import SellerHeader from '../header/SellerHeader'
+  import SellerContent from '../content/SellerContent'
+  import CommentFooter from '../footer/CommentFooter'
   export default{
     components: {SellerHeader,SellerContent,CommentFooter}
   }
