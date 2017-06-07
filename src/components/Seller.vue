@@ -1,4 +1,3 @@
-// 应该从商家列表跳转到这个路由，现在是从商品列表跳转
 <template>
   <div id="index">
     <div class="wrapper">
