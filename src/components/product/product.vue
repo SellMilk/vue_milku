@@ -1,12 +1,14 @@
 <template>
   <div>
-    
+
     <li class="product">
       <div class="product-img">
         <img src="./imgs/xiyuchun.jpg" alt="">
       </div>
       <div class="product-describe">
-        <a href=""><h3 class="product-title">{{title}}</h3></a>
+        <!--<a href=""><h3 class="product-title">{{title}}</h3></a>-->
+        <router-link :to="'/product'"><h3 class="product-title">{{title}}</h3></router-link>
+
         <div class="product-price">
           <span class="num">￥{{price}}</span>
           <span>/月</span>

@@ -5,7 +5,7 @@ import seller from '@/components/seller/Seller'
 import sellerdetail from '@/components/seller/SellerDetail'
 import sellerevaluate from '@/components/seller/SellerEvaluate'
 import userPage from '@/components/user/userPage'
-
+import ProductInfo from '@/components/product/ProductInfo'
 Vue.use(Router)
 
 export default new Router({
@@ -34,6 +34,11 @@ export default new Router({
       path: '/userPage',
       name: 'userPage',
       component: userPage
+    },
+    {
+      path: '/product',
+      name: 'ProductInfo',
+      component: ProductInfo
     }
   ]
 })
