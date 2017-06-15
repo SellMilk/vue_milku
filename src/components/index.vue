@@ -11,6 +11,7 @@
           <v-product></v-product>
         </ul>
         <p class="down">----------我是有底线的人----------</p>
+        <router-link :to="'/manange'">点我到管理员<router-link>
       </div>
     </div>
     <v-footer></v-footer>

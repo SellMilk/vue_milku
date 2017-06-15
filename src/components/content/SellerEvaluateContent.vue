@@ -1,4 +1,4 @@
-<<template>
+<template>
   <div class="seller-evaluate">
     <ul>
       <li>
@@ -9,7 +9,7 @@
 </template>
 
 
-<<script>
+<script>
 export default {
   
 }

@@ -13,7 +13,9 @@
           <v-product></v-product>
           <v-product></v-product>
         </ul>
+        <p class="manage"><router-link :to="'/manageIndex'">点我到管理员</router-link></p>
         <p class="down">----------我是有底线的人----------</p>
+
       </div>
     </div>
     <v-footer></v-footer>
@@ -37,5 +39,7 @@
 </script>
 
 <style>
-
+  .manage{
+    text-align:center;
+  }
 </style>
